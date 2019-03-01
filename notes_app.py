@@ -37,5 +37,5 @@ def get_remove(id):
     notes_api.delete_note(id)
     return redirect("/notes")
 if __name__ == '__main__':
-    port = 6000 
+    port = 8030 
     app.run(host='0.0.0.0', port=port)
