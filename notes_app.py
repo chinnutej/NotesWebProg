@@ -38,4 +38,5 @@ def get_remove(id):
     return redirect("/notes")
 
 if __name__ == '__main__':
-    port = 8020 
+    port = 8030 
+    app.run(host='0.0.0.0', port=port)
